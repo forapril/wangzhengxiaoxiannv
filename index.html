@@ -37,83 +37,122 @@ var mySwiper = new Swiper ('.swiper-container', {
     loop: true,
     speed:1000,
     autoplay: {
-        delay: 5000,
+        delay: 6000,
         stopOnLastSlide: true,
         // waitForTransition: false,
     },
     effect : 'fade',
 })
 $(function () {
-    openTp2('你好呀。',1,'你好','');
-    // function alert2(){
-    //     openTp('我知道你是放我无数次鸽子也不能打si她的人。<br/>那你知道我是谁吗？',3,'言大墨迹','严大墨迹','再给你一次机会！',alert3)
-    // }
-    // function alert3(){
-    //     openTp('你给我的备注真让我有打si你的冲动，谁叫我',2,'把你当大爷','把你当女儿宠呢','你大爷的！',alert4)
-    // }
-    // function alert4(){
-    //     openTp2('如果不是因为你不会照顾自己，我才懒得像个老妈子一样叨叨你。',4,'嗯嗯',alert5)
-    // }
-    // function alert5(){
-    //     openTp2('这只有“老妈子”一个答案你都答对了？！那你月末还是吃tu吧。别找我了。',3,'OK',alert6)
-    // }
-    // function alert6(){
-    //     openTp('谁要你一个月都才联系我两三次？我不会有点想你的吗？',1,'噢','哦','你就是这么无情冷漠,这么无理取闹', alert7)
-    // }
-    // function alert7(){
-    //     promptTp('这是你发给我的第2首歌，第一首歌是',4,'OK',['二十岁的某一天'],alert8,'再给你一次机会。');
-    // }
-    // function alert8(){
-    //     openTp2('我觉得虽然你可以唱很多种风格的歌。<br/>但是我还是jio的这首歌最喜欢了。',3,'OK', alert9)
-    // }
-    // function alert9(){
-    //     openTp2('为什么？<br/>因为每次听的时候都会觉得很开心啊！！！',1,'嗯哼', alert10)
-    // }
-    // function alert10(){
-    //     openTp2('所以有时候觉得无聊的时候就会翻开收藏夹，真的会听到傻笑哦！',3,'傻乎乎', alert11)
-    // }
-    // function alert11(){
-    //     openTp2('可能我平常就是一个高冷的面瘫，但是我知道我还是最喜欢你跟王铮两个傻乎乎了。',2,'是的', alert12)
-    // }
-    // function alert12(){
-    //     openTp2('是啊！跟你们在一起的时候最开心了，跟一个小猪仔一样。',5,'傻居居', alert13)
-    // }
-    // function alert13(){
-    //     openTp2('嘿嘿，平常交流的机会太少了，趁这次表白陈圆小姐姐？',6,'嘿嘿', alert14)
-    // }
-    // function alert14(){
-    //     openTp2('别傻了，像我这么矜持的人，只会把喜欢藏在眼睛里。',1,'嗯哼', alert15)
-    // }
-    // function alert15(){
-    //     openTp2('这些是为你准备的生日礼物，.......之一',4,'OK', alert16)
-    // }
-    // function alert16(){
-    //     openTp2('偷偷告诉你，我很喜欢那天你送我上表白墙的那一句话！',2,'OK', alert17)
-    // }
-    // function alert17(){
-    //     openTp2('我们要一起努力，在喜欢的道路上彼此前行。',5,'OK', alert18)
-    // }
-    // function alert18(){
-    //     openTp2('人生如茶需慢品，岁月如歌要静听。',3,'OK', alert19)
-    // }
-    // function alert19(){
-    //     openTp2('现在的我在努力，尽管道路不同，但你尽管飞翔，大陆会一直支持着你。',2,'OK', alert20)
-    // }
-    // function alert20(){
-    //     openTp2('很庆幸，在最好的时光，遇见最好的你。',6,'OK', alert21)
-    // }
-    // function alert21(){
-    //     openTp2('真的以为我很佛系不会表白吗？',2,'非常会', alert22)
-    // }
-    // function alert22(){
-    //     openTp2('当然不会对你说我很喜欢你啊陈圆同学。',4,'OK', alert23)
-    // }
-    // function alert23(){
-    //     openTp2('生日快乐',0,'确认', alert24)
-    // }
-    // function alert24(){
-    //     openTp2('I blessed a day I found you.',5,'傻乎乎', '')
-    // }
+    openTp2('你好呀。',1,'你是哪只蠢居居',alert2);
+    function alert2(){
+        openTp('我知道你是王喵呜，你知道我是谁吗？',3,'严梦婷','佛系傻大个','再给你一次机会！',alert3)
+    }
+    function alert3(){
+        openTp('听到BGM了吗，记不记得你在联谊上第一次唱的歌？',2,'奇妙能力歌','遇见你的时候所有星星都落在我头上','蠢居居',alert4)
+    }
+    function alert4(){
+        openTp('哈哈哈那个时候觉得王铮是一个好可爱的女孩子',5,'对啊王喵呜一直很可爱','不不不，梦婷你想多了','傻乎乎',alert5)
+    }
+    function alert5(){
+        openTp2('然后你准备第一次考队的时候，在文综楼练舞',3,'然后我有幸看到了你把学长撩到捂脸的车祸现场',alert6)
+    }
+    function alert6(){
+        openTp2('emmm...王铮你是不是觉得我平常话特别少？',1,'是的', alert7)
+    }
+    function alert7(){
+        openTp2('因为我害羞啊！',1,'确认', alert8)
+    }
+    function alert8(){
+        openTp2('不过我最开心的时候，就是三个人一起出去玩的时候',3,'确认', alert9)
+    }
+    function alert9(){
+        openTp('我有时候都担心你，会不会觉得我不是很想跟你一起',1,'毛线','哈心吧你','emmm...', alert10)
+    }
+    function alert10(){
+        openTp2('是的我只是有一点点的不好意思',3,'确认', alert11)
+    }
+    function alert11(){
+        openTp2('所以这个里面会有很多我想对你说的话',2,'确认', alert12)
+    }
+    function alert12(){
+        openTp2('真的有一种朋友，站在你旁边，就能给你带来很安心的感觉',5,'傻居居', alert13)
+    }
+    function alert13(){
+        openTp2('嗯，就是你',6,'嘿嘿', alert14)
+    }
+    function alert14(){
+        openTp2('王铮可能被我表白过很多次了，再多一次应该也没问题吧',1,'嗯哼', alert15)
+    }
+    function alert15(){
+        openTp2('我不是那种，能陪你聊天解闷的人',4,'确认', alert16)
+    }
+    function alert16(){
+        openTp2('但是有一句话我觉得很适合你',2,'确认', alert17)
+    }
+    function alert17(){
+        openTp2('你是无意穿堂风，偏偏孤倨引山洪',5,'确认', alert18)
+    }
+    function alert18(){
+        openTp2('王铮就是那种无意间，就走进别人心里去的人',3,'确认', alert19)
+    }
+    function alert19(){
+        openTp2('所以我很喜欢你',2,'确认', alert20)
+    }
+    function alert20(){
+        openTp2('毕竟，这种魔力，只有你跟陈圆有',6,'确认', alert21)
+    }
+    function alert21(){
+        openTp2('第一次见你的时候，从来没想过以后会这么喜欢你',2,'确认', alert22)
+    }
+    function alert22(){
+        openTp2('其实我很想做交互式的对话框，但是发现，我好像并不是很了解你',4,'确认', alert23)
+    }
+    function alert23(){
+        openTp2('那为什么还是选择做这个给你',3,'确认', alert24)
+    }
+    function alert24(){
+        openTp2('可能是因为平常交流次数太少了',5,'确认', alert25)
+    }
+    function alert25(){
+        openTp2('所以想借这次机会，好好说，<br/>而不是每次送完陈圆之后那种闷葫芦一句话都不说的样子',2,'确认', alert26)
+    }
+    function alert26(){
+        openTp2('我自己都看不下去，但是也开不了口',1,'确认', alert27)
+    }
+    function alert27(){
+        openTp2('有想过，要是王铮以后出国了，那我是不是会有点。。呢？',4,'确认', alert28)
+    }
+    function alert28(){
+        openTp2('现在想，不会吧。嗯，不会',2,'确认', alert29)
+    }
+    function alert29(){
+        openTp2('因为王铮应该不会忘记我吧',4,'确认', alert30)
+    }
+    function alert30(){
+        openTp2('那样就很好了',1,'确认', alert31)
+    }
+    function alert31(){
+        openTp2('我表白完了',2,'确认', alert32)
+    }
+    function alert32(){
+        openTp2('王铮今天肯定又要熬夜了 整点说说肯定有好多',5,'确认', alert33)
+    }
+    function alert33(){
+        openTp2('王铮说再也不熬夜了简直是放屁',2,'确认', alert34)
+    }
+    function alert34(){
+        openTp2('王喵呜十九岁生日快乐',3,'确认', alert35)
+    }
+    function alert35(){
+        openTp2('以后的生日我还想陪你一起过',4,'确认', alert36)
+    }
+    function alert36(){
+        openTp2('For you ,thousand times over.',1,'确认', alert37)
+    }
+    function alert37(){
+        openTp2('晚安 王铮',3,'晚安', '')
+    }
 })
 
 </script>
