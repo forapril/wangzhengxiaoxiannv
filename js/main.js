@@ -70,7 +70,7 @@ function endfun(){
     //删除图片轮播
     $(".swiper-container").remove();
     // 更换背景音乐
-    $("#bgmusic").html("").append('<audio loop autoplay="autoplay" id="Jaudio" src="music/hb2.mp3" width="0" height="0"></audio>');
+    //$("#bgmusic").html("").append('<audio loop autoplay="autoplay" id="Jaudio" src="music/hb2.mp3" width="0" height="0"></audio>');
     $("body").append('<div class="velas">\n' +
         '    <div class="fuego"></div>\n' +
         '    <div class="fuego"></div>\n' +
